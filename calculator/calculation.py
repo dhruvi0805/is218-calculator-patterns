@@ -17,7 +17,7 @@ class Calculation(ABC):
 
     @abstractmethod
     def execute(self) -> float:  # pragma: no cover
-        # This is the promise; concrete classes supply the real work.
+        # This placeholder is excluded because concrete subclasses supply the behavior.
         # execute() replaces get_result() and returns the answer.
         pass
 

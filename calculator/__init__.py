@@ -1,1 +1,1 @@
-"""Starter calculator package. Complete the remaining chapters."""
+"""Terminal calculator package."""
