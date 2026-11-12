@@ -65,6 +65,8 @@ calculator> exit
 
 The Calculator tests workflow runs the same command shown above on Python 3.12 and requires 100% line coverage. Tests check arithmetic results, command history, CLI error recovery, and shutdown via exit or EOF.
 
+The [successful GitHub Actions run](https://github.com/dhruvi0805/is218-calculator-patterns/actions/runs/43317409640) passed the 100% line coverage requirement.
+
 ## Coverage exclusions
 
 `Calculation.execute()` is excluded because its abstract body is a placeholder. Tests check that the abstract class cannot be constructed and exercise the concrete implementation.
